@@ -1,0 +1,19 @@
+{
+  "name": "hapi-get-locales",
+  "version": "0.0.1",
+  "description": "A util function for getting the request languages from the Hapi request object",
+  "main": "index.js",
+  "repository" : {"type": "git", "url": "https://github.com/Votion/hapi-get-locales.git"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "accept-language"
+  ],
+  "author": "Seamus P. H. Leahy",
+  "license": "ISC",
+  "dependencies": {
+    "accept-language-parser": "^1.2.0"
+  }
+}
