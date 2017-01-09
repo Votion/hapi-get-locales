@@ -6,7 +6,7 @@ const getLocales = require('hapi-get-locales');
 server.route({
   path: '/myroute',
   handler: function(request, reply) {
-    const locales = getLocales(request);
+    const locales = request.plugins.getLocales;
     // ['en_US', 'en']
   }
 });

@@ -1,6 +1,6 @@
 {
   "name": "hapi-get-locales",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A util function for getting the request languages from the Hapi request object",
   "main": "index.js",
   "repository": {
